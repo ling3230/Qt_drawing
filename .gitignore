@@ -1,0 +1,43 @@
+# Qt编译相关
+build-*/
+*.pro.user
+*.pro.user.*
+*.autosave
+
+# 编译输出文件
+*.o
+*.a
+*.so
+*.dll
+*.exe
+*.app
+
+# 调试和发布目录
+debug/
+release/
+Debug/
+Release/
+
+# Qt moc系统生成的文件
+moc_*
+qrc_*
+ui_*
+*.moc
+
+# 系统文件
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# 备份和临时文件
+*~
+*.tmp
+*.swp
+*.bak
+
+# 日志文件
+*.log
+
+# 平台特定文件
+*.app
+*.dmg
